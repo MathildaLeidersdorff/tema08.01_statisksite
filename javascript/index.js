@@ -32,7 +32,7 @@ den gør ingenting, før man kalder den med getData() */
 function showData(data) {
   console.log("DATA", data);
   /* showData = opskriften, der viser dataen på siden
-"data" = listen med sæsoner, vi lige har hentet */
+"data" = listen med kategorier, vi lige har hentet */
 
   categoriesList.innerHTML = "";
   /* tøm kassen på siden, så der ikke ligger noget gammelt i den */
